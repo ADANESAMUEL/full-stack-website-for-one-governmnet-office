@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>medel school website</title>
+	<link rel="stylesheet" type="text/css" href="school.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+   <section class="sub-header">
+   	  <nav>
+   	  	<a href="#"><img src="model.png"></a>
+   	  	<div class="nav-links" id="navLinks" >
+   	  		<i class="fas fa-times" onclick="hidemenu()"></i>
+   	  		<ul>
+   	  			<li><a href="school.html">HOME</a></li>
+   	  			<li><a href="about.html">ABOUT</a></li>
+   	  			<li><a href="course.html">COURSE</a></li>
+   	  			<li><a href="contact.html">CONTACT</a></li>
+
+   	  			<li><a href="login.php">LOG-IN</a></li>
+   	  		</ul>
+   	  	</div>
+            <i class="fas fa-bars" onclick="showmenu()" ></i>
+   	  </nav>
+   <h1>Contact Us</h1>
+
+   </section>
+
+<!--------- Contact us------->
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.945305814484!2d42.038281000000005!3d9.42619890000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1631a59fc45646d3%3A0x46b4c0d5ea1fe017!2sHaramaya%20University%20Model%20School!5e0!3m2!1sen!2set!4v1702902038630!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+</section>
+
+<section class="contact-us">
+
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<span>
+					<h5>main Road,above staff residence</h5>
+					<p>Harar,Haramaya,Bati</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<span>
+					<h5>+251-941971784</h5>
+					<p>Monday to Friday, 8AM to 5:30PM</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<span>
+					<h5>kassahailu4197@gmail.com</h5>
+					<p>Email us</p>
+				</span>
+			</div>
+		</div>
+<div class="contact-col">
+			
+  <form action="">
+	   <input type="text" placeholder="Enter your name" required>
+	   <input type="Email" placeholder="Enter Email Address" required>
+	   <input type="text" placeholder="Enter your subject" required>
+	   <textarea  rows="8" placeholder="Message" required></textarea>
+	   <button type="submit" class="hero-btn red-btn">send Message</button>
+		</form>
+
+
+
+		</div>
+
+	</div>
+	
+</section>
+
+
+
+
+
+
+<section class="footer">
+	<h4>About us</h4>
+	<p>Schools teach us far more than reading, writing, and arithmetic. They also socialize us to cultural norms and expectations. From the moment a child is born, his or her education begins. At first, education is an informal process in which an infant watches others and imitates them.</p>
+	<div class="icons">
+			
+			<i class="fab fa-facebook-square"></i>
+			<i class="fab fa-twitter" ></i>
+			<i class="fab fa-instagram" ></i>
+			<i class="fab fa-linkedin" ></i>
+
+		
+	</div>
+	<p>Made with <i class="fas fa-heart" ></i>by easy contact</p>
+	
+</section>
+
+
+
+
+   <script>
+   	var navLinks = document.getElementById('navLinks')
+   	function showmenu(){
+   		navLinks.style.right="0";
+   	}
+   	function hidemenu(){
+   		navLinks.style.right="-200px";
+
+   		}
+   </script>
+</body>
+</html>

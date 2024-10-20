@@ -1,0 +1,136 @@
+   *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+}
+body{
+  background: #7f8c8d;
+  overflow: hidden;
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 20px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1 rgba(0, 0, 0, 0.1);
+}
+.wrapper .title{
+  height: 90px;
+  background: #16a085;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 40px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px(26, 188, 156, 0,25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .button input{
+  color:#fff;
+  font-size: 20px;
+  width: 80px;
+  font-weight: 500;
+  padding-left: 0px;
+  background:#16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .button{
+  padding-left: 80px;
+}
+form:button input:hover{
+  background: #12876f;
+}
+.wrapper form .sign-in{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .sign-in a{
+  color: #16a085;
+  text-decoration: none;
+}
+.wrapper form .sign-in a:hover{
+  text-decoration: underline;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group .btn {
+    margin: 0 5px;
+}
+
+.btn-primary {
+    background-color: #009879;
+    border-color: #009879;
+}
+
+.btn-primary:hover {
+    background-color: #006b5e;
+    border-color: #006b5e;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-dead {
+  background-color: rgba(240, 225, 15, 0.973);
+  border-color: #dc3545;
+}
+.btn-alive{
+  background-color: rgb(12, 238, 189);
+  border-color: greenyellow;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
